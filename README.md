@@ -1,20 +1,22 @@
 # Vehicle Demand Forecasting
 
+A personal Machine Learning project developed to explore vehicle demand forecasting using Python, data analysis and a Linear Regression model.
+
+---
+
 ## Overview
 
-This project explores vehicle demand forecasting using Python and introductory machine learning techniques. The objective is to analyse historical demand data, identify patterns and develop a simple predictive model that estimates vehicle demand based on time-related features.
-
-This project was developed as a personal learning exercise to strengthen my knowledge of data analysis and machine learning using Python.
+This project analyses historical vehicle demand data to identify patterns and build a simple predictive model. It was developed as a personal learning project to strengthen my knowledge of data analysis, exploratory data analysis (EDA) and introductory machine learning techniques using Python.
 
 ---
 
 ## Objectives
 
-- Explore and understand vehicle demand data.
+- Explore and understand the dataset.
 - Perform data cleaning and preprocessing.
 - Conduct Exploratory Data Analysis (EDA).
-- Build a simple demand forecasting model.
-- Evaluate the model using a regression performance metric.
+- Build a Linear Regression model to forecast vehicle demand.
+- Evaluate the model using Mean Absolute Error (MAE).
 
 ---
 
@@ -28,34 +30,22 @@ This project was developed as a personal learning exercise to strengthen my know
 
 ---
 
-## Workflow
+## Project Workflow
 
 1. Load and inspect the dataset.
-2. Clean and prepare the data.
-3. Convert date variables into useful features.
-4. Perform exploratory data analysis (EDA).
+2. Clean and preprocess the data.
+3. Create time-based features from the date column.
+4. Perform Exploratory Data Analysis (EDA).
 5. Train a Linear Regression model.
-6. Evaluate the model using Mean Absolute Error (MAE).
+6. Evaluate model performance using Mean Absolute Error (MAE).
 
 ---
 
 ## Results
 
-The project demonstrates the complete workflow of a basic machine learning regression problem, from data preparation and exploration to model training and evaluation.
+This project demonstrates the complete workflow of a basic machine learning regression task, including data preparation, exploratory data analysis, model training and evaluation.
 
-Although a simple Linear Regression model was used, the project provided practical experience with Python, data preprocessing, exploratory analysis and predictive modelling.
-
----
-
-## Repository Structure
-
-```
-vehicle-demand-forecasting/
-│
-├── vehicle_demand_forecasting.ipynb
-├── README.md
-└── dataset.csv
-```
+The project provided practical experience with Python, Pandas, Scikit-learn and the application of a Linear Regression model for demand forecasting.
 
 ---
 
@@ -63,17 +53,25 @@ vehicle-demand-forecasting/
 
 Possible improvements include:
 
-- Compare different regression models such as Decision Trees and Random Forests.
-- Perform feature engineering to improve predictions.
-- Apply cross-validation.
-- Improve model performance through hyperparameter tuning.
+- Compare the performance of different regression models.
+- Explore additional time-based features.
+- Apply cross-validation techniques.
+- Optimise model performance through hyperparameter tuning.
+- Improve data visualisation and model evaluation.
+
+---
+
+## Repository Contents
+
+- `vehicle_demand_forecasting.ipynb` – Complete notebook containing data preprocessing, exploratory analysis, model development and evaluation.
+- `README.md` – Project documentation.
 
 ---
 
 ## Author
 
-Sheldra Lopes
+**Sheldra Lopes**
 
-LinkedIn: https://linkedin.com/in/sheldralopes
+**LinkedIn:** https://linkedin.com/in/sheldralopes
 
-GitHub: https://github.com/Shelly2000
+**GitHub:** https://github.com/Shelly2000
